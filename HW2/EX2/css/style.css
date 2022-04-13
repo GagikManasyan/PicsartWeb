@@ -1,0 +1,94 @@
+body
+{
+     margin:0;
+     height: fit-content;
+     font-family:cursive;
+}
+.top
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: black;    
+    border-bottom: 1px solid;
+    border-color: white;
+}
+#head_logo
+{
+    width: 4.3%;
+}
+#navigation 
+{
+    display: flex;
+}
+#navigation ul
+{
+    list-style-type: none;
+    display: flex;
+}
+#navigation ul li 
+{
+    margin-right: 15px;
+}
+#navigation a
+{
+    color: white;
+    text-decoration: none;
+}
+main 
+{
+    padding-left: 15px;
+    background-color: black;
+}
+aside h1
+{
+    font-family: Georgia;
+    font-style: italic;
+}
+.section_1
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-top: 45px;
+    padding-left: 15px;
+}
+.section_1 p
+{
+    width: 50%;
+}
+.section_2
+{
+    border-top: 1px solid;
+    border-color: white;
+    padding-top: 45px;
+    padding-left: 15px;
+    padding-bottom:20px;
+    background-color: black;
+    color:white;
+}
+.section_2 h3
+{
+    text-align: center;
+}
+.section_2 form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_3
+{
+    border-top: 1px solid;
+    border-color: white;
+    padding-top: 45px;
+    color:white;
+}
+.section_3 form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

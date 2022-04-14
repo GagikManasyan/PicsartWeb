@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EX2</title>
+    <style>
+        header 
+        {
+            display: flex;
+            justify-content: center;
+        }
+        main
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button
+        {
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CLICK ON START TO PLAY THE VIDEO</h1>
+    </header>
+    <main>
+        <button onclick="playPause()">START</button> 
+        <br>
+        <video id="video" width="70%" controls autoplay ="false" loop = "true" controlslist = "nofullscreen" disablepictureinpicture>
+            <source src="videos/rickroll.mp4" type = "video/mp4"> 
+
+        </video>
+        
+        
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script> 
+        var myVideo = document.getElementById("video"); 
+        
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+        
+        function makeBig() { 
+            myVideo.width = 560; 
+        } 
+        
+        function makeSmall() { 
+            myVideo.width = 320; 
+        } 
+        
+        function makeNormal() { 
+            myVideo.width = 420; 
+        } 
+    </script> 
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* if we specify the color of big_list than all of it inherits will be set to that color */
+.big_list
+{
+    color: red;
+}
+/* since we specify the color of the sublist as well it own inherits will be of different color */
+.small_list
+{
+    color: blue;
+}
+/* attributes like margin, padding, size do not inherit */
+.big_list
+{
+    width: 50%;
+    margin-right: 5px;
+    padding: 2px;
+}
+.small_list
+{
+    width: 20%;
+    margin-right: 2px;
+}
+.small_list :nth-child(1)
+{
+    color: yellow;
+}
+.parent
+{
+    color: red;
+}
+/* inherits color from the parent */
+#child1
+{
+    color: inherit;
+}
+/* sets the color to the initial default value, in this case just black*/
+#child2
+{
+    color: initial;
+}
+/* reverts the color to the default browser styling*, in this case default link color*/
+#child3
+{
+    color: revert;
+}
+/* reverts the color to the value in the previous layer*/
+/* in this case the links don't inherit unless are told to do so. Hence the color will be blue */
+#child4
+{
+    color: yellow;
+}
+#child4
+{
+    color: revert-layer;
+}
+/* reverts the color to natural value, if inherited will take the color from the parent */
+#child5
+{
+    color: unset;
+}
+
+
+

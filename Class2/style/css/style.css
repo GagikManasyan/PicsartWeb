@@ -1,0 +1,25 @@
+.text-center
+{
+    text-align: center;
+}
+
+table,
+th,
+td
+{
+    vertical-align: top;
+    border: 1px solid black;
+}
+table th
+{
+    background-color: #bfe0bf;
+}
+table span
+{
+    font-weight: bold;
+}
+table img 
+{
+    width: 22px;
+}
+

@@ -1,0 +1,63 @@
+body
+{
+    margin:0;
+}
+header 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+header img 
+{
+    width: 60px;
+}
+header nav ul 
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 360px;
+    color: white;
+    text-transform: capitalize;
+}
+
+main
+{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00000012;
+}
+figure img 
+{
+    width: 600px;
+}
+
+footer 
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+footer img 
+{
+    width: 300px;
+}
+footer p
+{
+    width: 400px;
+    line-height: 30px;
+}
+.contacts 
+{
+    display: flex;
+    flex-direction: column;
+}
+.contacts span 
+{
+    margin-bottom: 20px;
+}
+

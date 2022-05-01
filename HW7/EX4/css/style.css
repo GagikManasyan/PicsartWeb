@@ -1,0 +1,70 @@
+.wrapper 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+div
+{
+    margin-top: 10px;
+}
+fieldset 
+{
+    border: none;
+}
+fieldset input 
+{
+    padding: 5px;
+    width: 240px;
+}
+fieldset input:focus 
+{
+    border: 1px solid rgb(133, 29, 208);
+}
+fieldset input:hover 
+{
+    border: 1px solid rgb(231, 13, 231);
+}
+fieldset label 
+{
+    display: inline-block;
+    padding-bottom: 2px;
+}
+.container
+{
+    display: inline-block;
+    margin-top: 20px;
+    width: 280px;
+}
+.email_container 
+{
+    display: inline-block;
+    width: 544px;
+}
+.email_container input 
+{
+    width: 525px;
+}
+.text_container textarea
+{
+    min-width: 533px;
+    max-width: 533px;
+    min-height: 100px;
+}
+fieldset button 
+{
+    color: white;
+    width: 125px;
+    padding: 8px 0;
+    border: none;
+    border-radius: 2px;
+    background-color: #0083ff;
+    cursor: pointer;
+}
+fieldset button:hover
+{
+    border: 1px solid rgb(231, 13, 231);
+    background-color: white;
+    color: rgb(133, 29, 208);
+    border-radius: 2px;
+}

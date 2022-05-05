@@ -1,0 +1,54 @@
+body 
+{
+    margin: 0;
+}
+header 
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+header ul 
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    color: white;
+}
+ul li:nth-child(1)
+{
+    font-size: 25px;
+    font-style: bold;
+}
+ul li:nth-last-child(1)
+{
+    color: red;
+}
+.section1 
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.box 
+{
+    
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.section1 .box:nth-child(2n)
+{
+    background-color: purple;
+}
+.section2
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.section2 .box:nth-child(3n + 0)
+{
+    background-color: green;
+}

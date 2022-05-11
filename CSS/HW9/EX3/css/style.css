@@ -1,0 +1,13 @@
+div
+{
+    display: flex;
+    flex-direction: column;
+}
+.pict1 img 
+{
+    width: max(50%, 300px);
+}
+.pict2 img 
+{
+    width: max(50%, 300px);
+}

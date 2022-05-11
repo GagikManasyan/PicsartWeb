@@ -1,0 +1,27 @@
+.container 
+{
+    margin: 30px auto;
+    width: 300px;
+}
+.container_header
+{
+    border-radius: 10px 10px 0px 0px;
+    background-color: red;
+    height: 70px;
+}
+.container_header span 
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.container_body
+{
+    padding: 10px;
+    height: calc(100% - 70px);
+    border: 1px solid black;
+    border-top: none;
+}

@@ -1,0 +1,60 @@
+.big_box 
+{
+    position:relative;
+}
+.box 
+{
+    width:150px;
+    height: 100px;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover 
+{
+    z-index: 1;
+}
+.b1 
+{
+    top:0;
+    left:0;
+    background-color: red;
+}
+.b2
+{
+    top:60px;
+    left: 50px;
+    background-color: green;
+}
+.b3
+{
+    top:120px;
+    left: 100px;
+    background-color: blue;
+}
+.b4
+{
+    top:180px;
+    left: 150px;
+    background-color: pink;
+}
+.b5
+{
+    top:240px;
+    left: 200px;
+    background-color: darkred;
+}
+.b6
+{
+    top:300px;
+    left: 250px;
+    background-color: purple;
+}
+.b7
+{
+    top:360px;
+    left: 300px;
+    background-color: orange;
+}

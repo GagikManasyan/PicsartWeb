@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+}
+header
+{
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(103, 58, 183);
+}
+header ul 
+{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    list-style: none;
+}
+header ul li a 
+{
+    position: relative;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+header ul li a::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5px;
+    background-color: aliceblue;
+    transform: scale(0,1);
+    transform-origin: 0% 100%;
+    transition: transform 0.5s;
+}
+header ul li a:hover::after
+{
+    transform: scale(1,1);
+}
+
+
+
+    

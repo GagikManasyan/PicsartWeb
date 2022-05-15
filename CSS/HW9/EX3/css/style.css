@@ -1,3 +1,4 @@
+
 div
 {
     display: flex;
@@ -9,5 +10,5 @@ div
 }
 .pict2 img 
 {
-    width: max(50%, 300px);
+    width: min(50%, 300px);
 }

@@ -1,0 +1,106 @@
+body
+{
+    background-color: #000000eb;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color:#1b1b1b;
+    color: aliceblue;
+}
+.wrapper p
+{
+    border: 1px solid aliceblue;
+    padding: 5px;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.clip
+{
+    text-overflow: clip;
+}
+.ellipsis
+{
+    text-overflow: ellipsis;
+}
+
+.word_break p
+{
+    overflow: visible;
+    white-space: initial;
+}
+.normal 
+{
+    word-break: normal;
+}
+.break_all
+{
+    word-break: break-all;
+}
+.keep_all
+{
+    word-break: keep-all;
+}
+.break_word
+{
+    word-break: break-word;
+}
+
+.line_break p
+{
+    overflow: visible;
+    white-space: initial;
+}
+.auto
+{
+    line-break: auto;
+}
+.loose
+{
+    line-break: loose;
+}
+.normal
+{
+    line-break: normal;
+}
+.strict
+{
+    line-break: strict;
+}
+
+.writing_mode p
+{
+    overflow: visible;
+    white-space: normal;
+    width: 300px;
+}
+.horizontal 
+{
+    writing-mode: horizontal-tb;
+}
+.vertical_lr
+{
+    writing-mode: vertical-lr;
+}
+.vertical_rl 
+{
+    writing-mode: vertical-rl;
+}
+
+
+
+
+
+

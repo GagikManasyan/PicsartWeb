@@ -1,0 +1,66 @@
+body
+{
+    background-color: #1b1a1a;
+}
+header
+{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+.wrapper
+{
+    margin: 60px auto;
+    width: fit-content;
+}
+.wrapper img
+{
+    margin-top: 5px;
+    display: block;
+    transition: 1s;;
+}
+.wrapper button 
+{
+    width: 100px;
+    padding: 10px;
+    color: aliceblue;
+    background: none;
+    border: 1px solid aliceblue;
+}
+#blur:hover ~ img 
+{
+    filter: blur(5px);
+}
+#brightness:hover ~ img 
+{
+    filter: brightness(200%);
+}
+#contrast:hover ~ img 
+{
+    filter: contrast(200%);
+}
+#grayscale:hover ~ img 
+{
+    filter: grayscale(100%);
+}
+#hue_rotate:hover ~ img 
+{
+    filter: hue-rotate(90deg);
+}
+#invert:hover ~ img 
+{
+    filter: invert(100%);
+}
+#opacity:hover ~ img 
+{
+    filter: opacity(30%);
+}
+#saturate:hover ~ img 
+{
+    filter: saturate(8);
+}
+#sepia:hover ~ img 
+{
+    filter: sepia(100%);
+}
+

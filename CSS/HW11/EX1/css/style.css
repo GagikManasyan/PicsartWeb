@@ -1,0 +1,77 @@
+body
+{
+    margin: 0;
+    background-color: #3d8340;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+
+}
+header div 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pond
+{
+    height: 450px;
+    position: relative;
+    display: flex;
+}
+.frogs
+{
+    z-index: 1;
+}
+.frogs img 
+{
+    width: 135px;
+    height: 135px;
+}
+.background
+{
+    width: 100%;
+    height: 450px;
+    position:absolute;
+    display: flex;
+}
+.pads img 
+{
+    width: 135px;
+    height: 135px;
+}
+
+.b_lvl1
+{
+    justify-content: flex-end;
+}
+.p_lvl1:active
+{
+    justify-content: flex-end;
+}
+
+.b_lvl2
+{
+    justify-content: center;
+}
+.p_lvl2:active
+{
+    justify-content: center;
+}
+
+.b_lvl3 .pads
+{
+    display: flex;
+    flex-direction: column;
+}
+.p_lvl3:active .frogs
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+

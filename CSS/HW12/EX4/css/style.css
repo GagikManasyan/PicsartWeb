@@ -1,0 +1,32 @@
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 10px;
+}
+.grid-element
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.element1
+{
+    grid-column: 1 / 3;
+    background-color: #00daff;
+}
+.element2
+{
+    background-color: #a59eff;;
+}
+.element3
+{
+    background-color: #f47cff;;
+}
+.element4
+{
+    grid-column: 1 / 3;
+    background-color: #fe00ff;;
+}

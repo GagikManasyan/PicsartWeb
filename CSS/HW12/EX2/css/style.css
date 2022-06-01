@@ -1,0 +1,16 @@
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,100px);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.grid-element
+{
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 5px;
+}

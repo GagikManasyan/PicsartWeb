@@ -1,0 +1,31 @@
+body
+{
+    margin: 0;
+}
+main
+{
+    display: flex;
+    .sidebar
+    {
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        top: 0;
+        img 
+        {
+            width: 85px;
+            height: 85px;
+        }
+    }
+    .main-content
+    {
+        margin-left: 20px;
+        p 
+        {
+            width: 400px;
+        }
+    }
+
+}
+
+

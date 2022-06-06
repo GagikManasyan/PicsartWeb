@@ -1,0 +1,226 @@
+$ubuntu: 'Ubuntu', 'sans-sarif';
+$background:#b6b6b6;
+
+$white: #fff;
+$green: #19972c;
+$lightgray: #f9ecef70;
+$darkblue:#020f47;
+$bestcolor:#001e2d;
+$pink:#ff1493;
+$gold:#ffd166;
+
+@media only screen and (max-width: 995px) 
+{
+    .pricing-table 
+    {
+        flex-direction: column;
+    }
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: $background;
+    font-family: 'Ubuntu';
+    padding: 40px;
+}
+.pricing-table-container
+{
+    .pricing-header
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h2 
+        {
+            margin-right: 20px;
+        }
+
+        .plans-switch-container
+        {
+            position: relative;
+            color: $white;
+            display: inline-block;
+
+            .plans-switch 
+            {
+                width: 250px;
+                height: 55px;
+                appearance: none;
+                background: $darkblue;
+                border-radius: 24px;
+                outline:none;
+                cursor:pointer;
+                position: relative;
+
+                &::before
+                {
+                    content: "";
+                    position: absolute;
+                    height: 44px;
+                    width: 120px;
+                    border-radius: 24px;
+                    background: $green;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 6px;
+                    transition: all 0.5s;
+                }
+            }
+            
+            .monthly
+            {
+                position: absolute;
+                top: 18px;
+                left: 36px;
+                pointer-events: none;
+                
+            }
+
+            .yearly
+            {
+                position: absolute;
+                top: 18px;
+                right: 36px;
+                pointer-events: none;
+            }
+        }
+    }
+    .pricing-table 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 32px;
+        
+        h3 
+        {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .table 
+        {
+            background:$lightgray;
+            width: 300px;
+            padding: 32px;
+            overflow: hidden;
+            position: relative;
+            background-image: url("../images/bg-shape1.svg");
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: contain;
+
+            &.best-value 
+            {
+                background: $bestcolor;
+                color: $white;
+                border-radius: 15px;
+                .best-header 
+                {
+                    position: absolute;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    text-align: center;
+                    padding: 10px;
+                    font-size: 20px;
+                    background: $pink;
+                }
+                .content 
+                {
+                    padding-top: 70px;
+                    .description
+                    {
+                        color: $white;
+                    }
+                    .btn 
+                    {
+                        background:$gold;
+                        color: #222;
+                        &:hover 
+                        {
+                            background: #f6d78e;
+                        }
+                    }
+                }  
+                
+            }
+            
+            .btn 
+            {
+                background:rgb(0, 0, 76);
+                padding: 16px 0;
+                display: inline-block;
+                width: 100%;
+                color: $white;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 24px;
+                margin-top: 16px;
+                transition: background 400ms;
+
+                &:hover 
+                {
+                    background: #29769c;
+                }
+
+            }
+
+            .content 
+            {
+                .price-container 
+                {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+    
+                    .price 
+                    {
+                        font-size: 50px;
+                        font-weight: bolder;
+                        padding-right: 16px;
+                    }
+                }
+    
+                .description 
+                {
+                    font-size: 15px;
+                    color: #222;
+                    margin-bottom: 20px;
+                }
+    
+                .features
+                {
+                    list-style: none;
+                    padding: 0;
+
+                    li
+                    {
+                        margin-bottom:30px;
+                    }
+
+                    li::before
+                    {
+                        content: url("../images/check-icon.svg");
+                        margin-top: 10px;
+                        margin-right: 8px;
+                    }
+                    
+                }
+
+                
+            }
+        }   
+    }
+}

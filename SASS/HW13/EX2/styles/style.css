@@ -6,6 +6,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 1300px;
 }
 
 main .sidebar {
@@ -15,7 +16,14 @@ main .sidebar {
   color: #cfcfcf;
 }
 
-main .sidebar ul {
+main .sidebar nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+main .sidebar nav ul {
   height: 225px;
   padding-left: 20px;
   position: -webkit-sticky;

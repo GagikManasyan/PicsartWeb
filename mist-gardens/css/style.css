@@ -374,6 +374,11 @@ main .news .news-content .news-content-right ul li img {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  main .home .home-content .content-buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   main .home .home-content h1 {
     text-align: center;
   }

@@ -34,7 +34,7 @@ header .wrapper .header-nav ul li {
 }
 
 header .wrapper .header-nav ul li a {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -96,7 +96,7 @@ main .home {
 }
 
 main .home .home-content h1 {
-  font-family: 'Libre Baskerville';
+  font-family: 'LibreBaskerville-Bold';
   font-style: normal;
   font-weight: 400;
   font-size: 57px;
@@ -108,7 +108,7 @@ main .home .home-content h1 {
 
 main .home .home-content p {
   margin-top: 16px;
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -131,13 +131,16 @@ main .home .home-content .content-buttons button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 40px;
   width: 188px;
   height: 56px;
-  font-family: 'Roboto';
+  font-family: 'Roboto-Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
@@ -176,7 +179,7 @@ main .discover img {
 }
 
 main .discover .discover-yourself h2 {
-  font-family: 'Libre Baskerville';
+  font-family: 'LibreBaskerville-Bold';
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
@@ -186,7 +189,7 @@ main .discover .discover-yourself h2 {
 }
 
 main .discover .discover-yourself p {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -213,7 +216,7 @@ main .discover .discover-yourself button {
   height: 56px;
   background: none;
   border: 2px solid #FFFFFF;
-  font-family: 'Roboto';
+  font-family: 'Roboto-Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
@@ -239,7 +242,7 @@ main .news {
 
 main .news .news-headline h3 {
   margin-bottom: 15px;
-  font-family: 'Libre Baskerville';
+  font-family: 'LibreBaskerville-Bold';
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
@@ -267,7 +270,7 @@ main .news .news-headline .view .line {
 
 main .news .news-headline .view span {
   margin-right: 12px;
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -292,7 +295,7 @@ main .news .news-content {
 }
 
 main .news .news-content h4 {
-  font-family: 'Libre Baskerville';
+  font-family: 'LibreBaskerville-Bold';
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
@@ -302,7 +305,7 @@ main .news .news-content h4 {
 }
 
 main .news .news-content p {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -312,7 +315,7 @@ main .news .news-content p {
 }
 
 main .news .news-content span {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   font-style: italic;
   font-weight: 400;
   font-size: 16px;
@@ -321,18 +324,8 @@ main .news .news-content span {
   color: #343D33;
 }
 
-main .news .news-content h4 {
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 23px;
-  line-height: 25px;
-  text-transform: capitalize;
-  color: #475F45;
-}
-
 main .news .news-content p {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -341,7 +334,7 @@ main .news .news-content p {
 }
 
 main .news .news-content span {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   font-style: italic;
   font-weight: 400;
   font-size: 16px;
@@ -433,7 +426,7 @@ footer .footer-top ul {
 footer .footer-top span {
   display: inline-block;
   margin-bottom: 20px;
-  font-family: 'Libre Baskerville';
+  font-family: 'LibreBaskerville-Bold';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -445,7 +438,7 @@ footer .footer-top span {
 }
 
 footer .footer-top .footer-top-left p {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -458,7 +451,7 @@ footer .footer-top .footer-top-center ul li {
 }
 
 footer .footer-top .footer-top-center ul li a {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Bold';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -490,7 +483,7 @@ footer .footer-bottom {
 }
 
 footer .footer-bottom span {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Bold';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

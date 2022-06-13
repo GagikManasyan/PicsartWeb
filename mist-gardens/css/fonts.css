@@ -1,10 +1,20 @@
 @font-face 
 {
-    font-family: Roboto;
-    src: url(../fonts/Roboto/Roboto-Black.ttf);
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
 @font-face 
 {
-    font-family: Libre Baskerville;
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face 
+{
+    font-family: LibreBaskerville-Regular;
     src: url(../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+@font-face 
+{
+    font-family: LibreBaskerville-Bold;
+    src: url(../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf);
 }

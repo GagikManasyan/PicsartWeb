@@ -8,8 +8,76 @@ body
     display: flex;
     margin: 0px 100px;
 }
+// header
 header 
 {
+    ul 
+    {
+        list-style: none;
+        li 
+        {
+            a 
+            {
+                font-family: 'Roboto-Light';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0.15em;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        }
+        .nav-membership
+        {
+            box-sizing: border-box;
+            width: 169px;
+            height: 46px;
+            padding: 15px 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+    .submenu 
+    {
+        display: none;
+        padding-top: 40px;
+        height: 1133px;
+        background:#475F45;
+        span 
+        {
+            display: block;
+            font-family: 'LibreBaskerville-Bold';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 34px;
+            line-height: 37px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+        ul 
+        {
+            margin-top: 96px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            li 
+            {
+                margin-bottom: 40px;
+                a 
+                {
+                    color: #FFFFFF;
+                }
+            }
+            .nav-membership
+            {
+                border: 2px solid #FFFFFF;
+            }
+        }
+    }
     .wrapper 
     {   
         justify-content: space-between;
@@ -20,40 +88,29 @@ header
             {
                 display: flex;
                 align-items: center;
-                list-style: none;
                 li 
                 {
                     margin-right: 40px;
                     a 
                     {
-                        font-family: 'Roboto-Bold';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 14px;
-                        line-height: 16px;
-                        letter-spacing: 0.15em;
-                        text-decoration: none;
-                        text-transform: uppercase;
                         color: #475F45;
                     }
                 }
                 .nav-membership
                 {
-                    box-sizing: border-box;
-                    width: 169px;
-                    height: 46px;
                     border: 2px solid #475F45;
-                    padding: 15px 30px;
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    
                 }
+                
             }
         }
         .menu-button 
         {
             display: none;
+            button 
+            {
+                background: none;
+                border: none;
+            }
         }
         @media only screen and (min-width: 375px) and (max-width: 1310px) 
         {
@@ -76,6 +133,7 @@ header
         }
     }   
 }
+// main
 main
 {
     .home 
@@ -386,6 +444,7 @@ main
     }
         
 }
+// footer
 footer 
 {
     .footer-top 
@@ -479,6 +538,7 @@ footer
         }
     }
 }
+// responsive
 @media only screen and (min-width: 745px) and (max-width: 1310px) 
 {
     .wrapper 

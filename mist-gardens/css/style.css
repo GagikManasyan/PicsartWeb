@@ -10,6 +10,12 @@ body {
   margin: 0px 100px;
 }
 
+@media only screen and (min-width: 2550px) and (max-width: 4000px) {
+  .wrapper {
+    margin: 0px 800px;
+  }
+}
+
 header ul {
   list-style: none;
 }
@@ -128,7 +134,7 @@ header .wrapper .menu-button button {
   border: none;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 1310px) {
+@media only screen and (min-width: 320px) and (max-width: 1310px) {
   header .wrapper .header-logo img {
     width: 215px;
     height: 49px;
@@ -234,6 +240,12 @@ main .discover {
           justify-content: space-between;
 }
 
+@media only screen and (min-width: 2550px) and (max-width: 4000px) {
+  main .discover {
+    padding: 96px 50px;
+  }
+}
+
 main .discover img {
   margin-right: 89px;
 }
@@ -298,6 +310,12 @@ main .discover .discover-bottom {
 
 main .news {
   padding: 96px 99px;
+}
+
+@media only screen and (min-width: 2550px) and (max-width: 4000px) {
+  main .news {
+    padding: 96px 500px;
+  }
 }
 
 main .news .news-headline h3 {
@@ -421,7 +439,7 @@ main .news .news-content .news-content-right ul li img {
   margin-right: 20px;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 1310px) {
+@media only screen and (min-width: 320px) and (max-width: 1310px) {
   main .home {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -806,6 +824,69 @@ footer .footer-bottom span {
   footer .footer-top .footer-top-right ul li {
     margin-right: 16px;
     margin-left: 16px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .wrapper {
+    margin: 0px 20px;
+  }
+  main .home {
+    margin: 56px 50px 70px 50px;
+  }
+  main .home .home-content {
+    margin-bottom: 64px;
+  }
+  main .home .home-content h1 {
+    font-size: 30px;
+  }
+  main .home .home-content p {
+    font-size: 20px;
+  }
+  main .home .home-content .content-buttons button {
+    width: 140px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  main .home .home-aside img {
+    width: 280px;
+  }
+  main .discover {
+    padding: 96px 105px;
+  }
+  main .discover img {
+    width: 534px;
+    height: 354px;
+  }
+  main .discover .discover-bottom {
+    margin-top: 40px;
+  }
+  main .discover .discover-bottom img {
+    width: 534px;
+    height: 211px;
+  }
+  main .discover .discover-yourself h2 {
+    margin-top: 60px;
+  }
+  main .news {
+    padding: 65px 24px;
+  }
+  main .news .news-headline {
+    margin-bottom: 48px;
+  }
+  main .news .news-content .news-content-left img {
+    width: 392px;
+    height: 251px;
+  }
+  main .news .news-content .news-content-left .context {
+    margin-left: 24px;
+  }
+  main .news .news-content .news-content-right {
+    margin-top: 40px;
+  }
+  footer .footer-top {
+    padding: 48px 24px 48px 24px;
   }
 }
 /*# sourceMappingURL=style.css.map */

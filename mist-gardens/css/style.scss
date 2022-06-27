@@ -7,6 +7,10 @@ body
 {
     display: flex;
     margin: 0px 100px;
+    @media only screen and (min-width: 2550px) and (max-width: 4000px)
+    {
+        margin: 0px 800px;
+    }
 }
 // header
 header 
@@ -112,7 +116,7 @@ header
                 border: none;
             }
         }
-        @media only screen and (min-width: 375px) and (max-width: 1310px) 
+        @media only screen and (min-width: 320px) and (max-width: 1310px) 
         {
             .header-logo 
             {
@@ -205,6 +209,10 @@ main
     .discover
     {
         padding: 96px 179px;
+        @media only screen and (min-width: 2550px) and (max-width: 4000px)
+        {
+            padding:96px 50px;
+        }
         background: #343D33;
         display: flex;
         flex-wrap: wrap;
@@ -267,6 +275,10 @@ main
     .news 
     {
         padding: 96px 99px;
+        @media only screen and (min-width: 2550px) and (max-width: 4000px)
+        {
+            padding:96px 500px;
+        }
         .news-headline 
         {
             h3 
@@ -390,7 +402,7 @@ main
             }
         }
     }
-    @media only screen and (min-width: 375px) and (max-width: 1310px)
+    @media only screen and (min-width: 320px) and (max-width: 1310px)
     {
         .home 
         {
@@ -539,6 +551,7 @@ footer
     }
 }
 // responsive
+
 @media only screen and (min-width: 745px) and (max-width: 1310px) 
 {
     .wrapper 
@@ -856,6 +869,108 @@ footer
                 }
             }
         }   
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) 
+{
+    .wrapper 
+    {
+        margin: 0px 20px;
+    }
+    main 
+    {
+        .home 
+        {
+            margin: 56px 50px 70px 50px;
+            .home-content
+            {
+                margin-bottom: 64px;
+                h1 
+                {
+                    font-size: 30px;
+                }
+                p 
+                {
+                    font-size: 20px;
+                }
+                .content-buttons
+                {
+                    button 
+                    {
+                        width: 140px;
+                        height: 50px;
+                        padding: 10px 20px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .home-aside 
+            {
+                img 
+                {
+                    width: 280px;
+                }
+            }
+        }
+        .discover 
+        {
+            padding: 96px 105px;
+            img 
+            {
+                width: 534px;
+                height: 354px;
+            }
+            .discover-bottom
+            {
+                margin-top: 40px;
+                img 
+                {
+                    width: 534px;
+                    height: 211px;
+                }
+            }
+            .discover-yourself
+            {
+                h2 
+                {
+                    margin-top: 60px;
+                }
+            }
+        }
+        .news 
+        {
+            padding: 65px 24px;
+            .news-headline 
+            {
+                margin-bottom: 48px;
+            }
+            .news-content 
+            {
+                .news-content-left 
+                {
+                    img 
+                    {
+                        width: 392px;
+                        height: 251px;
+                    }
+                    .context 
+                    {
+                        margin-left: 24px;
+                    }
+                }
+                .news-content-right 
+                {
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+    footer 
+    {
+        .footer-top 
+        {
+            padding: 48px 24px 48px 24px;
+        }
     }
 }
 

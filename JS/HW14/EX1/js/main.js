@@ -2,21 +2,20 @@
 
 function checkArr(arr)
 {
-    let even_counter = 0;
-    let odd_counter = 0;
+    let counter = 0;
     for (let i = 0; i < arr.length; i++) 
     {
         if(i % 2 != 0 && arr[i] % 2 != 0)
         {
-            odd_counter++;
+            counter++;
         }
         else if (i % 2 == 0 && arr[i] % 2 == 0)
         {
-            even_counter++;
+            counter++;
         }
         
     }
-    if(even_counter + odd_counter == arr.length)
+    if(counter == arr.length)
     {
         return true;
     }
@@ -27,7 +26,7 @@ function checkArr(arr)
 }
 function main ()
 {
-    const arr = [2, 7, 8, 8, 6, 1, 6, 3];
+    const arr = [2, 7, 4, 9, 6, 1, 6, 3];
     console.log(checkArr(arr)); 
     console.log("done");
 }

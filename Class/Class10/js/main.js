@@ -79,12 +79,7 @@ function calculateScore(plays)
 }
 function main ()
 {
-    console.log(reverseOdd("bananas"));
-
-    let game = [ ["R", "R"], ["R", "P"], ["R", "R"] ];
-    console.log(calculateScore(game));
-
-    console.log("done");
+    
 
 }
 main();

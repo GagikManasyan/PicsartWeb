@@ -1,6 +1,7 @@
 function isHappy(num)
 {
-    if(num == 1)
+    
+    if(num == 1 || num == 7)
     {
         console.log("true");
         return true;
@@ -12,24 +13,15 @@ function isHappy(num)
     }
     else
     {
-        let new_number = 0;
-        if(num / 10 < 1)
+        let digits = String(num).split("").map((num)=>{
+            return Number(num)
+        });
+        num = 0;
+        for (let i = 0; i < digits.length; i++) 
         {
-            new_number += Math.pow(num, 2);
+            num += Math.pow(digits[i], 2); 
         }
-        else
-        {
-            let digits = String(num).split("").map((num)=>{
-                return Number(num)
-            })
-            for (let i = 0; i < digits.length; i++) 
-            {
-                new_number += Math.pow(digits[i], 2); 
-            }
-        }
-        isHappy(new_number);
+        isHappy(num);
     }
-    
-    
 }
-console.log(isHappy(19));
+console.log(isHappy(159));
